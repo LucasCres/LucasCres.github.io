@@ -5,6 +5,7 @@
 + Crea una rama que se llame primera en tu local, y ejecuta la instrucción necesaria para comprobar que se ha creado.
 ![Imagen](img/taller31.JPG)
 + Crea un nuevo fichero en esta rama y fusiónalo con la principal. ¿Se ha producido conflicto? Razona la respuesta.
+  ### No se ha producido ningun conflicto porque el fichero es nuevo 
 ![Imagen](img/taller32.JPG)
 + Borra la rama primera.  
 ![Imagen](img/taller33.JPG)
