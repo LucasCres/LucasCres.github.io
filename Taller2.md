@@ -15,7 +15,7 @@ _Esto_ es un **parrafo** en ***Markdown*** `codigo`
 
 [enlace](www.google.com) 
 
-![Imagen](descarga.png)
+![Imagen](img/descarga.png)
 
 | Columna 1 | Columna 2 | Columna 3 |
 |----------|----------|----------|
