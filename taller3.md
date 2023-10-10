@@ -3,7 +3,7 @@
 
 
 + Crea una rama que se llame primera en tu local, y ejecuta la instrucción necesaria para comprobar que se ha creado.
-![Imagen](img/taller31.jpg)
+![](img/ejer1.jpg)
 + Crea un nuevo fichero en esta rama y fusiónalo con la principal. ¿Se ha producido conflicto? Razona la respuesta.
 ![Imagen](img/taller32.jpg)
 + Borra la rama primera.  
