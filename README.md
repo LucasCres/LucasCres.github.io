@@ -11,6 +11,7 @@
 ## Unidad 2: Generador páginas estáticas Jekyll  
 ---
 + Documento markdown. [EnlaceDocumentoMK](https://github.com/LucasCres/LucasCres.github.io/blob/main/Archivos/Unidad2/GenerarPaginasEstaticasJK.md)
-+ 
-
++ Pagina con tema minima. [PaginaMinima](https://lucascres.github.io/myblog2/)
++ Pagina con tema Lagrange [PaginaLagrange](https://lucascres.github.io/Lagrange/)
++ Pagina con Netlify [Paginanetlify](https://sitiolucascres.netlify.app/)
 
