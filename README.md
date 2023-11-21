@@ -10,6 +10,6 @@
 ---
 ## Unidad 2: Generador páginas estáticas Jekyll  
 ---
-+ Documento markdown
++ Documento markdown.
 
 
