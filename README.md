@@ -10,6 +10,7 @@
 ---
 ## Unidad 2: Generador páginas estáticas Jekyll  
 ---
-+ Documento markdown.
++ Documento markdown. [EnlaceDocumentoMK](https://github.com/LucasCres/LucasCres.github.io/blob/main/Archivos/Unidad2/GenerarPaginasEstaticasJK.md)
++ 
 
 
