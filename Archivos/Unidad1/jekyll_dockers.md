@@ -7,10 +7,10 @@ Jekyll es una herramienta que nos permite construir sitios web estáticos de man
 ## 2. Elección de la imagen Jekyll
 En Docker Hub, encontramos tres imágenes oficiales de Jekyll:
 
-jekyll/jekyll: Imagen por defecto.
-jekyll/minimal: Imagen muy minimalista.
-jekyll/builder: Incluye herramientas adicionales.
-En esta práctica, utilizaremos la imagen por defecto jekyll/jekyll.
+jekyll/jekyll: Imagen por defecto.   
+jekyll/minimal: Imagen muy minimalista.   
+jekyll/builder: Incluye herramientas adicionales.   
+En esta práctica, utilizaremos la imagen por defecto jekyll/jekyll.   
 
 ## 3. Ejecución de comandos básicos de Jekyll
 ### 3.1 Consultar comandos disponibles
@@ -28,31 +28,29 @@ Utilizamos el siguiente comando para crear la estructura de directorios y archiv
 ![](img/DockersJekyll2.jpg)
 ### 3.3 Añadir la gema necesaria para que funcione.
 Para ello hay que editar el archivo gemfiles.   
-![](img/DockersJekyll3.jpg)
-Y añadir la gema webrick
-![](img/DockersJekyll3.jpg)
-### 3.4 Generar un sitio HTML estático
-El siguiente comando nos permite generar un sitio HTML estático a partir del contenido del proyecto Jekyll:
+![](img/DockersJekyll3.jpg)   
+Y añadir la gema webrick   
+![](img/DockersJekyll4.jpg)
 
-docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll build
-Nota: Este comando debe ejecutarse dentro del directorio que contiene el contenido del blog.
-
-### 3.5 Servir el sitio localmente
+### 3.4 Servir el sitio localmente
 Utilizamos el siguiente comando para servir localmente el sitio HTML estático generado:
 
-bash
-Copy code
-docker run -it --rm -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll serve --force_polling
-La opción --force_polling permite que el contenido del sitio se actualice automáticamente al realizar cambios en los archivos del proyecto.
+`docker run -it --rm -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll serve --force_polling`   
+La opción --force_polling permite que el contenido del sitio se actualice automáticamente al realizar cambios en los archivos del proyecto.    
+![](img/DockersJekyll5.jpg)
 
-Nota: Ejecute este comando dentro del directorio que contiene el contenido del blog.
+Nota: Ejecute este comando dentro del directorio que contiene el contenido del blog.   
+Una vez cargue el comando estara encendido el sitio HTML estatico con jekyll    
+![](img/DockersJekyll6.jpg)
 
 ## 4. Visualización del sitio web
 Para visualizar el sitio web, abrimos un navegador y accedemos a la dirección de localhost en el puerto 4000:
 
-http://127.0.0.1:4000
+http://127.0.0.1:4000    
 
-También podemos acceder a través de la dirección IP de nuestra máquina. ¡Listo, ahora tienes un entorno de desarrollo Jekyll en un contenedor Docker!
+![](img/DockersJekyll7.jpg)
+
+También podemos acceder a través de la dirección IP de nuestra máquina. 
 
 
 
