@@ -25,16 +25,19 @@ Utilizamos el siguiente comando para crear la estructura de directorios y archiv
 
 
 ` docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog `
-![](img/DockersJekyll1.jpg)
-### 3.3 Generar un sitio HTML estático
+![](img/DockersJekyll2.jpg)
+### 3.3 Añadir la gema necesaria para que funcione.
+Para ello hay que editar el archivo gemfiles.   
+![](img/DockersJekyll3.jpg)
+Y añadir la gema webrick
+![](img/DockersJekyll3.jpg)
+### 3.4 Generar un sitio HTML estático
 El siguiente comando nos permite generar un sitio HTML estático a partir del contenido del proyecto Jekyll:
 
-bash
-Copy code
 docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll build
 Nota: Este comando debe ejecutarse dentro del directorio que contiene el contenido del blog.
 
-### 3.4 Servir el sitio localmente
+### 3.5 Servir el sitio localmente
 Utilizamos el siguiente comando para servir localmente el sitio HTML estático generado:
 
 bash
