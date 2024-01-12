@@ -19,13 +19,13 @@ Para conocer todos los comandos que podemos ejecutar con Jekyll, utilizamos el s
 
 ` docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll `    
 Esto nos proporcionará la lista de comandos y opciones disponibles.
-![Texto alternativo](/img/DockersJekyll1.PNG)
+![](img/DockersJekyll1.jpg)
 ### 3.2 Crear un nuevo proyecto Jekyll
 Utilizamos el siguiente comando para crear la estructura de directorios y archivos necesarios para un nuevo proyecto Jekyll:
 
-bash
-Copy code
-docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog
+
+` docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog `
+![](img/DockersJekyll1.jpg)
 ### 3.3 Generar un sitio HTML estático
 El siguiente comando nos permite generar un sitio HTML estático a partir del contenido del proyecto Jekyll:
 
