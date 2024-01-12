@@ -19,7 +19,7 @@ Para conocer todos los comandos que podemos ejecutar con Jekyll, utilizamos el s
 
 ` docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll `    
 Esto nos proporcionará la lista de comandos y opciones disponibles.
-![Texto alternativo](/ruta/a/la/imagen.jpg)
+![Texto alternativo](/img/DockersJekyll1.PNG)
 ### 3.2 Crear un nuevo proyecto Jekyll
 Utilizamos el siguiente comando para crear la estructura de directorios y archivos necesarios para un nuevo proyecto Jekyll:
 
